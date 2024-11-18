@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="121dp"
-        android:layout_height="35dp"
+        android:layout_height="22dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Welcome Back"
         android:textSize="20sp"
@@ -25,24 +25,26 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="216dp"
         android:text="sign in to access your account"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="328dp"
         android:ems="10"
         android:hint="Enter your email"
         android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -56,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -66,10 +68,10 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.541" />
+        app:layout_constraintVertical_bias="0.645" />
 
     <TextView
         android:id="@+id/textView3"
@@ -80,10 +82,10 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintHorizontal_bias="0.816"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <Button
         android:id="@+id/button"
@@ -116,14 +118,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="321dp"
-        android:layout_height="251dp"
+        android:layout_width="317dp"
+        android:layout_height="216dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/undraw_adventure_map_hnin_2" />
 
     <ImageView
